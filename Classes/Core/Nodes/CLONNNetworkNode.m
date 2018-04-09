@@ -16,6 +16,8 @@
 @end
 @implementation CLONNNetworkNode
 
+@dynamic pDelegate;
+
 - (instancetype)init
 {
     self = [super init];

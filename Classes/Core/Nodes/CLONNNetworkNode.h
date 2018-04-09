@@ -9,7 +9,7 @@
 
 @class CLONNSendDataWriter, CLONNReceiveDataReader;
 
-@protocol CLONNNetworkNodeDelegate
+@protocol CLONNNetworkNodeDelegate <NSObject>
 
 - (void)dgClient_EndSendMsgToServer:(CLONNSendDataWriter *)writer;
 
